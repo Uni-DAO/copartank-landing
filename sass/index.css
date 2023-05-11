@@ -1,6 +1,6 @@
 .btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
   display: inline-block;
-  background-color: #ac4dff;
+  background-color: #38B6FE;
   padding: 0.75rem 1rem;
   width: 100%;
   border-radius: 10px;
@@ -14,7 +14,7 @@
 }
 
 .btn:hover, body main .container__rainbow--link__playstore--link:hover, body main .container__rainbow--link__appstore--link:hover, body main .container__rainbow .link__playstore--link:hover, body main .container__rainbow .link__appstore--link:hover {
-  background-color: #8b05d8;
+  background-color: #1389cd;
   color: white;
 }
 
@@ -31,7 +31,7 @@
   border-image-slice: 1;
   border-width: 3px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+  border-image-source: linear-gradient(to right, #1389cd, #38B6FE);
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -52,7 +52,7 @@
   font-size: 24px;
 }
 .title--purple {
-  color: #ac4dff;
+  color: #1389cd;
 }
 
 .paragraph, .paragraph--bold, .paragraph--big {
@@ -93,7 +93,7 @@ body {
 }
 body header {
   padding-top: 1.5rem;
-  background-color: #8b05d8;
+  background-color: #1389cd;
   padding: 1rem;
   width: 90%;
   margin: 0 auto;
@@ -135,7 +135,7 @@ body main .container__rainbow--link__playstore--qr, body main .container__rainbo
   border-image-slice: 1;
   border-width: 3px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+  border-image-source: linear-gradient(to right, #1389cd, #38B6FE);
 }
 body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
   font-size: 20px;
@@ -150,7 +150,7 @@ body main .container__address .container--btn .btn-inline {
   margin-bottom: 8px;
 }
 body footer {
-  background-color: #8b05d8;
+  background-color: #1389cd;
   padding: 1.5rem;
 }
 

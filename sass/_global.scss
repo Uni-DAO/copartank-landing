@@ -1,13 +1,16 @@
 // variables
+$blue-clear: #38B6FE;
+$blue-dark: #1389cd;
 $purple-dark: #8b05d8;
 $purple-light: #ac4dff;
 // $purple-light: #A874E7;
 $purple-light-title: #8c3bba;
 $pink: #F21884; 
-$gradient: linear-gradient(to right, #743ad5, #d53a9d);
+$gradient: linear-gradient(to right, $blue-dark, $blue-clear);
 $green-dark: #025157;
 $background-white: #eeeeee;
 $dark-gray: rgb(24, 24, 24);
+$aqua: #ADF8C9;
 $btn-hover-green: #67b54b;
 $btn-green-dark-hover: #003135;
 $background-green: #a1d686;
@@ -20,7 +23,7 @@ $header-color-black: #4a4a4a;
 // elements
 .btn {
     display: inline-block;
-    background-color: $purple-light;
+    background-color: $blue-clear;
     padding: .75rem 1rem;
     width: 100%;
     border-radius: 10px;
@@ -34,7 +37,7 @@ $header-color-black: #4a4a4a;
 }
 
 .btn:hover {
-    background-color: $purple-dark;
+    background-color: $blue-dark;
     color: white;
 
 }
@@ -78,7 +81,7 @@ $header-color-black: #4a4a4a;
 
     &--purple {
         @extend .title;
-        color: $purple-light;
+        color: $blue-dark;
     }
 }
 
