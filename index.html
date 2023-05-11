@@ -88,7 +88,15 @@
     <footer>
         <p class="paragraph">Desarrollado por Uni.DAO</p>
     </footer>
-    
+
+    <script>
+        let btnContact = document.getElementById('btn-contact');
+
+        btnContact.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here";
+        })
+    </script>
 </body>
 
 </html>
